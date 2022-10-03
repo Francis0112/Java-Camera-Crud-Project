@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorpane1" prefHeight="367.0" prefWidth="729.0" stylesheets="@loginCSS.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="savage.FXMLDocumentController">
+    <children>
+      <AnchorPane fx:id="anchorpane2" layoutX="447.0" prefHeight="459.0" prefWidth="282.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="username" layoutX="14.0" layoutY="255.0" onKeyPressed="#textFieldLogin" prefHeight="25.0" prefWidth="254.0" promptText="USERNAME" />
+            <PasswordField fx:id="password" layoutX="14.0" layoutY="290.0" onKeyPressed="#passFieldLogin" prefHeight="25.0" prefWidth="254.0" promptText="PASSWORD" />
+            <Button fx:id="loginBtn" layoutX="15.0" layoutY="325.0" mnemonicParsing="false" onAction="#logine" onKeyPressed="#loginPress" prefHeight="25.0" prefWidth="254.0" text="login" textFill="#6b4949" />
+            <Button fx:id="exitBtn" layoutX="236.0" mnemonicParsing="false" onAction="#close" prefHeight="0.0" prefWidth="46.0" text="X">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <BorderPane fx:id="borderpane1" layoutX="41.0" layoutY="22.0" prefHeight="200.0" prefWidth="200.0">
+               <center>
+                  <ImageView fx:id="image1" fitHeight="177.0" fitWidth="199.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@image/User.png" />
+                     </image>
+                  </ImageView>
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="398.0" fitWidth="462.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Digitalself.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="31.0" text="Sign up:" textFill="#ebe7e7" />
+      <Label layoutX="14.0" layoutY="14.0" text="For more information please visit:" textFill="#f2ecec" />
+      <Hyperlink fx:id="info_url" layoutX="193.0" layoutY="11.0" onAction="#info_url1" text="FDCIS.com" />
+      <Hyperlink fx:id="info_register" layoutX="57.0" layoutY="28.0" onAction="#info_register1" text="FDCIS.com/Register" />
+    </children>
+</AnchorPane>

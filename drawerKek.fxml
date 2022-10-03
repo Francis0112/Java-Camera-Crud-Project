@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="box" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="213.0" stylesheets="@drawerkek.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="savage.DrawerKekController">
+   <children>
+      <ImageView fx:id="image" fitHeight="190.0" fitWidth="235.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Digitalself.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Animation_logo" fitHeight="212.0" fitWidth="213.0" pickOnBounds="true">
+         <image>
+            <Image url="@image/JAVA_animated_logo.gif" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="exit_btn" buttonType="RAISED" onAction="#Exit1" prefHeight="79.0" prefWidth="213.0" text="LOG OUT">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></JFXButton>
+   </children>
+</VBox>

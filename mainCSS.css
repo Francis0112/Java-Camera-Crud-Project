@@ -1,0 +1,70 @@
+#anchorpane {
+    -fx-background-color: whitesmoke;
+}
+
+#CAM_btn {
+    -fx-graphic: url("image/icons8_Camera_32px.png");
+    -fx-background-color: white;
+}
+
+#Take_btn{
+    -fx-graphic: url("image/icons8_Selfie_32px.png");
+    -fx-background-color: white;
+}
+#File_btn{
+    -fx-graphic: url("image/icons8_Full_Image_32px.png");
+    -fx-background-color: white;
+}
+
+#ADD_Data_btn {
+    -fx-graphic: url("image/icons8_Plus_Math_32px.png");
+    -fx-background-color: white;
+}
+#Edit_Data_btn {
+    -fx-graphic: url("image/icons8_Edit_32px.png");
+    -fx-background-color: white;
+}
+#Done_Data_btn {
+    -fx-graphic: url("image/icons8_Checkmark_32px.png");
+    -fx-background-color: white;
+}
+#Delete_Data_btn {
+    -fx-graphic: url("image/icons8_Delete_32px_3.png");
+    -fx-background-color: white;
+}
+#clear_btn{
+    -fx-graphic: url("image/icons8_Broom_32px.png");
+    -fx-background-color: white;
+}
+#CAM_btn:hover {
+    -fx-background-color: #5A9999;
+    -fx-text-fill: white;
+}
+#Take_btn:hover {
+    -fx-background-color: #5A9999;
+    -fx-text-fill: white;
+}
+#File_btn:hover {
+    -fx-background-color: #5A9999;
+    -fx-text-fill: white;
+}
+#ADD_Data_btn:hover {
+    -fx-background-color: #5A9999;
+    -fx-text-fill: white;
+}
+#Edit_Data_btn:hover {
+    -fx-background-color: #5A9999;
+    -fx-text-fill: white;
+}
+#Done_Data_btn:hover {
+    -fx-background-color: #5A9999;
+    -fx-text-fill: white;
+}
+#Delete_Data_btn:hover {
+    -fx-background-color: #5A9999;
+    -fx-text-fill: white;
+}
+#clear_btn:hover {
+    -fx-background-color: #5A9999;
+    -fx-text-fill: white;
+}

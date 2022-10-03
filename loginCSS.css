@@ -1,0 +1,36 @@
+#anchorpane1 {
+   
+}
+
+#anchorpane2 {
+    -fx-background-color: #9CEFEF;
+}
+
+#exitBtn {
+    -fx-background-color: transparent;
+}
+
+#borderpane1 {
+    -fx-border-color: #3A0032;
+    -fx-border-radius: 100;
+}
+
+#username {
+    -fx-background-color: #3A0032 , #9CEFEF , #9CEFEF;
+    -fx-background-insets: 0 1 -1 1, 0 0 0 0, 0 -1 2 -1;
+}
+
+#password {
+    -fx-background-color: #3A0032 , #9CEFEF , #9CEFEF;
+    -fx-background-insets: 0 1 -1 1, 0 0 0 0, 0 -1 2 -1;
+}
+
+#loginBtn {
+    -fx-background-color: #9CEFEF;
+    -fx-border-radius: 10;
+    -fx-border-color: #3A0032;
+}
+
+#loginBtn:focused {
+    -fx-background-color: #5A9999;
+}

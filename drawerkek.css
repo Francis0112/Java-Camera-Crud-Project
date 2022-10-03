@@ -1,0 +1,38 @@
+#add_btn:hover {
+    -fx-background-color: #5A9999;
+    -fx-text-fill: white;
+}
+
+#add_btn {
+    -fx-graphic: url("image/icons8_Plus_Math_32px.png");
+    -fx-background-color: white;
+}
+
+#edit_btn {
+    -fx-graphic: url("image/icons8_Edit_32px.png");
+    -fx-background-color: white;
+}
+#edit_btn:hover {
+    -fx-background-color: #5A9999;
+    -fx-text-fill: white;
+}
+
+#delete_btn {
+    -fx-graphic: url("image/icons8_Delete_32px_3.png");
+    -fx-background-color: white;
+}
+
+#delete_btn:hover {
+    -fx-text-fill: white;
+    -fx-background-color: #5A9999;
+}
+
+#exit_btn {
+    -fx-graphic: url("image/icons8_Exit_32px.png");
+    -fx-background-color: white;
+}
+
+#exit_btn:hover {
+    -fx-text-fill: white;
+    -fx-background-color: #5A9999;
+}
