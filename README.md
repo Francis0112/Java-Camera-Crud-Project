@@ -8,4 +8,6 @@ this project is made in netbeans part of learning.
 *mysql-connector-java-5.0.8 bin
 
 # thank you
+Video presentation of the project.
+https://youtu.be/ryyskdlKVPs
 
